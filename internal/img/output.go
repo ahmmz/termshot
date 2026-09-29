@@ -34,7 +34,6 @@ import (
 	"github.com/fogleman/gg"
 	"github.com/golang/freetype/truetype"
 	"github.com/gonvenience/bunt"
-	"github.com/gonvenience/font"
 	"github.com/gonvenience/term"
 	imgfont "golang.org/x/image/font"
 )
@@ -113,10 +112,10 @@ func NewImageCreator() Scaffold {
 		shadowOffsetX:   f * 16,
 		shadowOffsetY:   f * 16,
 
-		regular:    font.Hack.Regular(fontFaceOptions),
-		bold:       font.Hack.Bold(fontFaceOptions),
-		italic:     font.Hack.Italic(fontFaceOptions),
-		boldItalic: font.Hack.BoldItalic(fontFaceOptions),
+		regular:    Meslo.Regular(fontFaceOptions),
+		bold:       Meslo.Bold(fontFaceOptions),
+		italic:     Meslo.Italic(fontFaceOptions),
+		boldItalic: Meslo.BoldItalic(fontFaceOptions),
 
 		lineSpacing: 1.2,
 		tabSpaces:   2,

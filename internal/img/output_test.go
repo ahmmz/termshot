@@ -28,7 +28,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	. "github.com/gonvenience/bunt"
-	. "github.com/homeport/termshot/internal/img"
+	. "github.com/ahmmz/termshot/internal/img"
 )
 
 var _ = Describe("Creating images", func() {

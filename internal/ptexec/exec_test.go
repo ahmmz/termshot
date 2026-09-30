@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/homeport/termshot/internal/ptexec"
+	. "github.com/ahmmz/termshot/internal/ptexec"
 )
 
 var _ = Describe("Pseudo Terminal Execute Suite", func() {

@@ -31,7 +31,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/types"
 
-	. "github.com/homeport/termshot/internal/img"
+	. "github.com/ahmmz/termshot/internal/img"
 )
 
 func TestImg(t *testing.T) {

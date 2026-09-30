@@ -20,7 +20,7 @@
 
 package main
 
-import "github.com/homeport/termshot/internal/cmd"
+import "github.com/ahmmz/termshot/internal/cmd"
 
 func main() {
 	cmd.Execute()

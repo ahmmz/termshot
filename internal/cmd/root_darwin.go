@@ -27,7 +27,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/homeport/termshot/internal/img"
+	"github.com/ahmmz/termshot/internal/img"
 )
 
 const osascript = "/usr/bin/osascript"
